@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "FONTELOGO";
+    src: url("fontes/Please\ write\ me\ a\ song.ttf");
+}
+
+@font-face {
+    font-family: "logo";
+    src: url("fontes/RoyaltyCriminals.ttf");
+}
+
+@font-face {
+    font-family: "texto";
+    src: url("fontes/Letters\ for\ Learners.ttf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(imagens/gifundo4.gif) center no-repeat;
+    background-size: 300vh;
+    background-attachment: fixed;
+}
+
+
+
+header {
+    min-height: 90px;
+    text-align: right;
+}
+
+
+nav {
+    background-image: url("imagens/gifundo5.gif");
+    background-repeat: repeat;
+    background-position: 20px;
+    background-size: cover;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.5);
+}
+
+.nav-list  a {
+    color: rgb(255, 255, 255);
+    background: #00000086;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 8px;
+    transition-duration: .5s;
+    box-shadow: 2px 2px 7px #808080;
+ 
+}
+
+.nav-list a:hover {
+    background-color: #4747478f;
+    color: rgb(186, 90, 241);
+    box-shadow: 0px 0px 7px #292528;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+#container {
+    position: relative;
+    max-width: 800px;
+    min-width: 320px;
+    height: 760px;
+    margin: auto;
+    background-color:rgba(61, 61, 61, 0.9);
+    box-shadow: 0px 0px 7px #292528;
+    border-radius: 40px;
+}
+
+#conteudo {
+    background-color: rgba(151, 151, 151, 0.377);
+    color: #ffff;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right:20px ;
+    position: absolute;
+    box-shadow: 0px 0px 7px #292528;
+    margin-inline: 390px;
+    margin-block: 10px;    
+    border-radius: 10px;
+    max-width: 900px;
+    min-width: 350px;
+    
+    
+
+}
+
+.minhafoto img {
+    border: rgb(133, 133, 133) solid ;
+    border-radius: 50px;
+    margin-block: 10px;
+    margin-inline: 10px; 
+    box-shadow: 0px 0px 7px #292528;
+}
+
+#conteudo h2 {
+    text-align: center;
+    font-family: texto;
+    letter-spacing: 6px;
+    font-style:oblique;
+    font-size: 22px;
+}
+
+#conteudo p {
+    text-align: justify;
+    font-size: 18.9px;  
+    text-indent: 1em;
+    font-family: texto;
+    letter-spacing: -1px;
+}
+
+header#topo {
+    background-color: #292528b6;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: solid black;
+}
+
+header#topo h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 40px;
+    font-family: texto;
+    letter-spacing: -1px;
+}
+
+header#topo h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: texto;
+    letter-spacing: -1px;
+}
+
+div#border {
+    border: rgb(133, 133, 133, 0.500) solid 0.001px;
+    box-shadow: 2px 2px 7px #808080;
+}
+
+.nav-list h1 {
+    display: flex;
+    position: absolute;
+    color: rgb(209, 209, 209);
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: logo;
+    border-bottom: solid black;
+    border-right: solid black;
+    box-shadow: 2px 2px 7px #808080;
+}
+
+.gif img {
+    position: absolute;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 800px;
+    height: 205px;
+}
+
+
+
+
+
+
