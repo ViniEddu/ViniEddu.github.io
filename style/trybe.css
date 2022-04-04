@@ -10,6 +10,8 @@
 }
 
 body {
+    max-width: 100%;
+    min-width: 320px;
     font-size: 100%;
     background-image: radial-gradient(circle at 85.81% 50%, #633d33 0, #5a3731 8.33%, #4e2f2e 16.67%, #402728 25%, #2f1e20 33.33%, #1c1315 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
 }
@@ -64,8 +66,8 @@ body {
     justify-content: space-around;
     background-image: url("../imagens/fundo5.jpg");
     background-size: cover;
-    background-clip: padding-box;
-    background-position: 0px -200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .conteudo-principal-escrito {

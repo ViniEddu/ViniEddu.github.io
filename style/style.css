@@ -10,6 +10,8 @@
 }
 
 body {
+    max-width: 100%;
+    min-width: 30%;
     font-size: 100%;
     background-image: radial-gradient(circle at 85.81% 50%, #633d33 0, #5a3731 8.33%, #4e2f2e 16.67%, #402728 25%, #2f1e20 33.33%, #1c1315 41.67%, #000000 50%, #000000 58.33%, #000000 66.67%, #000000 75%, #000000 83.33%, #000000 91.67%, #000000 100%);
 }
@@ -70,6 +72,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding-left: 50px;
 }
 
 .conteudo-principal-titulo {
@@ -112,6 +115,7 @@ body {
     width: 250px;
     padding-top: 30px;
     border-radius: 200px;
+    padding-right: 5px;
 }
 
 
